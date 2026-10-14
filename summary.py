@@ -6,3 +6,5 @@ with open ('demo_log.log' , 'r') as file:
         elif 'INFO' in line:
             with open('info.log', 'a') as f:
                 f.write(line)
+
+                
